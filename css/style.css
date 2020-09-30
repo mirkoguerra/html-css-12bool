@@ -1,0 +1,42 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  text-align: center;
+  line-height: 200px;
+}
+
+.h-200 {
+  height: 200px;
+  border: 1px solid black;
+  background-color: #FFC0CB;
+}
+
+.h-special {
+  height: 100%;
+  border: 1px solid white;
+  background-color: #F07F80;
+}
+
+.dim-90 {
+  width: 95%;
+  height: 90%;
+}
+
+.nested {
+  line-height: 180px;
+}
+
+.rel {
+  position: relative;
+}
+
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
